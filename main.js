@@ -26,7 +26,7 @@ function upper() {
             <div class="col">
                 <h2 class="name font-weight-bold mb-1">${data.name}</h2>
                 <div class="tagline mb-3">${data.company}</div>
-                <div class="bio mb-4">${data.bio}. As informações dessa página extraidas da api do GitHub foram geradas assincronamente
+                <div class="bio mb-4">${data.bio}. As informações dessa página foram extraidas da api do github
                 </div><!--//bio-->
                 <div class="mb-4">
                     <a class="btn btn-primary me-2 mb-3" href="https://github.com/FernandoValentim43"   target="blank" >View</span> GitHub</a>
