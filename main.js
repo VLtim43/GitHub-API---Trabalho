@@ -29,7 +29,7 @@ function upper() {
                 <div class="bio mb-4">${data.bio}. As informações dessa página foram extraidas da api do github
                 </div><!--//bio-->
                 <div class="mb-4">
-                    <a class="btn btn-primary me-2 mb-3" href="https://github.com/FernandoValentim43"   target="blank" >View</span> GitHub</a>
+                    <a class="btn btn-primary me-2 mb-3" href="https://github.com/VLtim43"   target="blank" >View</span> GitHub</a>
                     <a class="btn btn-secondary mb-3" href="#"><span class="d-none d-md-inline">View</span> Resume</a>
                 </div>
             </div>
@@ -53,7 +53,7 @@ function upper() {
 
     }
 
-    xhr.open('GET', 'https://api.github.com/users/fernandovalentim43');
+    xhr.open('GET', 'https://api.github.com/users/VLtim43');
     xhr.send();
 }
 
@@ -127,6 +127,6 @@ function down() {
 
     }
 
-    xhr.open('GET', 'https://api.github.com/users/fernandovalentim43/repos');
+    xhr.open('GET', 'https://api.github.com/users/VLtim43/repos');
     xhr.send();
 }
